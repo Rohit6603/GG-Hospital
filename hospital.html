@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
- 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GG Hospital</title>
- 
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <style>
-        #home{
+        #home {
             background-image: url("assets/home.png");
             background-size: cover;
             background-position: center;
             height: 100vh;
             width: 100%;
-            
+
         }
-        #whygg{
+
+        #whygg {
             background-image: url("assets/whygg.png");
             background-size: cover;
             background-position: center;
@@ -28,17 +29,20 @@
             flex-wrap: wrap;
             justify-content: end;
         }
-        #whytext{
+
+        #whytext {
             margin-top: 10%;
             margin-right: 10%;
-            
+
         }
-        #home-text{
+
+        #home-text {
             position: relative;
             left: 10%;
-            top:15%;
+            top: 15%;
         }
-        #home button{
+
+        #home button {
             position: relative;
             left: 12%;
             top: 20%;
@@ -47,47 +51,56 @@
             border-style: none;
             color: white;
         }
-        #formbtn{
+
+        #formbtn {
             background-color: #17C1A3;
             border-style: none;
 
         }
-        #doctorstalk{
+
+        #doctorstalk {
             position: relative;
             left: 33%;
-            top:13%
+            top: 13%
         }
-        #formbutton{
+
+        #formbutton {
             border-radius: 5%;
             background-color: #17C1A3;
             border-style: none;
-            color: white;  
+            color: white;
         }
-        #bookappointment{
-            width:75%;
+
+        #bookappointment {
+            width: 75%;
             background-color: white;
             margin-top: -100px;
             border-radius: 5%;
         }
-        #specialisthead{
+
+        #specialisthead {
             display: flex;
             align-items: center;
             flex-direction: column;
-            
+
         }
-        .checkmark{
+
+        .checkmark {
             color: aquamarine;
         }
-        #specialistbtn{
+
+        #specialistbtn {
             background-color: #17C1A3;
             border-style: none;
-            
+
         }
-        #specialistbtndiv{
+
+        #specialistbtndiv {
             display: flex;
             justify-content: center;
         }
-        #end{
+
+        #end {
             background-color: #EAF2FF;
             width: 100%;
             height: 120vh;
@@ -96,10 +109,12 @@
             position: absolute;
             margin-left: -45px;
         }
-        #interested{
+
+        #interested {
             margin-top: -200px;
         }
-        #whitewave{
+
+        #whitewave {
             background-image: url("assets/newsletter.png");
             background-size: cover;
             background-position: center;
@@ -109,33 +124,39 @@
             background-color: white;
             margin-left: 2%;
             margin-right: 20%;
-            
+
         }
-        #wwdiv{
+
+        #wwdiv {
             margin-left: 10%;
             margin-top: 1%;
         }
-        #wwdivcol2{
+
+        #wwdivcol2 {
             margin-top: 7%;
         }
-        #wwdivcol2 input{
+
+        #wwdivcol2 input {
             border-left-style: none;
             border-right-style: none;
             border-top-style: none;
             border-color: black;
         }
-        body{
+
+        body {
             overflow-x: hidden;
         }
-        #footer{
+
+        #footer {
             margin-top: 20%;
         }
-        #headersocial{
+
+        #headersocial {
             margin-left: 13%;
         }
     </style>
 </head>
- 
+
 <body class="mx-5">
     <nav class="navbar border-2 border-dark justify-content-start container-fluid bg-light d-flex">
         <p><b>Follow us on: </b></p>
@@ -156,7 +177,7 @@
             </div>
         </div>
     </nav>
- 
+
     <nav class="navbar p-4 flex-nowrap d-flex">
         <img src="assets\hospitallogo.png" class="w-293 h-76" alt="">
         <div class="m-auto">
@@ -171,15 +192,23 @@
                 <li class="list-inline-item">Contact Us</li>
             </ul>
         </div>
- 
+
     </nav>
-    <div  id="home">
+    <div id="home">
         <div id="home-text">
-            <p><h1>Love and Care to</h1></p>
-            <p><h1>Humanity</h1></p>
+            <p>
+            <h1>Love and Care to</h1>
+            </p>
+            <p>
+            <h1>Humanity</h1>
+            </p>
             <br>
-            <p><h6>Fastest-Growing Multi Speciality Hospital</h6></p>
-            <p><h6>in South Kerala</h6></p>
+            <p>
+            <h6>Fastest-Growing Multi Speciality Hospital</h6>
+            </p>
+            <p>
+            <h6>in South Kerala</h6>
+            </p>
         </div>
         <button class="btn btn-primary btn-block rounded-sm">Book an Appointment</button>
         <div id="doctorstalk">
@@ -189,43 +218,44 @@
     </div>
     <div class="container-fluid p-0 w-80% " id="bookappointment">
         <form class="bg-white p-4 rounded shadow-lg">
-          <h6 class="text-left ">Book an Appointment</h6>
-          <div class="row ">
-          <div class="form-group col-md-4 mb-2">
-            <input type="text" class="form-control" placeholder="Name">
-          </div>
-          <div class="form-group col-md-4 mb-2">
-            <input type="tel" class="form-control" placeholder="Phone">
-          </div>
-          <div class="form-group col-md-4 mb-2">
-            <input type="date" class="form-control" placeholder="Date">
-          </div>
-      </div>
-      <div class="row">
-          <div class="form-group col-md-4 mb-2">
-
-            <select class="form-control">
-                <option selected disabled>Select Department</option>
-                <option value="department1">Hepatobiliary Surgery</option>
-                <option value="department2">Medical Oncology</option>
-                <option value="department2">ENT, Head & Neck Skull Surgery</option>
-            </select>
-          </div>
-          <div class="form-group col-md-4 mb-2">
-            
-            <select class="form-control">
-                <option selected disabled>Select Doctor</option>
-                <option value="department1">Lisha Powell</option>
-                <option value="department2">Chris Nelson</option>
-                <option value="department2">Linda Stapleton</option>
-            </select>
-          </div>
-          <div class="form-group col-md-4 mb-2">
-              <button type="button" class="btn btn-primary btn-block rounded-sm form-control" id="formbtn">Book an Appointment</button>
+            <h6 class="text-left ">Book an Appointment</h6>
+            <div class="row ">
+                <div class="form-group col-md-4 mb-2">
+                    <input type="text" class="form-control" placeholder="Name">
+                </div>
+                <div class="form-group col-md-4 mb-2">
+                    <input type="tel" class="form-control" placeholder="Phone">
+                </div>
+                <div class="form-group col-md-4 mb-2">
+                    <input type="date" class="form-control" placeholder="Date">
+                </div>
             </div>
-       
-      </div>
-    
+            <div class="row">
+                <div class="form-group col-md-4 mb-2">
+
+                    <select class="form-control">
+                        <option selected disabled>Select Department</option>
+                        <option value="department1">Hepatobiliary Surgery</option>
+                        <option value="department2">Medical Oncology</option>
+                        <option value="department2">ENT, Head & Neck Skull Surgery</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4 mb-2">
+
+                    <select class="form-control">
+                        <option selected disabled>Select Doctor</option>
+                        <option value="department1">Lisha Powell</option>
+                        <option value="department2">Chris Nelson</option>
+                        <option value="department2">Linda Stapleton</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4 mb-2">
+                    <button type="button" class="btn btn-primary btn-block rounded-sm form-control" id="formbtn">Book an
+                        Appointment</button>
+                </div>
+
+            </div>
+
     </div>
     <section class="mt-5 pt-5">
         <p class="fs-1 fw-bolder">Our Departments</p>
@@ -256,26 +286,38 @@
             </div>
         </div>
     </section>
-    
+
     <div id="whygg">
-    
-       
+
+
 
         <ul class="list-unstyled" id="whytext">
-            <li class="p-2"><p class="fs-4 fw-bold">Why GG Hospital</p></li>
-            <li class="p-2"><p><i class="bi bi-check-circle checkmark"></i> Multi-super speciality hospital in South Kerala</p></li>
-            <li class="p-2"><p><i class="bi bi-check-circle checkmark"></i> Achieved the unique reputation</p></li>
-            <li class="p-2"><p><i class="bi bi-check-circle checkmark"></i> Multi-super speciality hospital in South Kerala</p></li>
-            <li class="p-2"><p><i class="bi bi-check-circle checkmark"></i> Multi-super speciality hospital in South Kerala</p></li>
-            <li class="p-2"><p><i class="bi bi-check-circle checkmark"></i> Multi-super speciality hospital in South Kerala</p></li>
+            <li class="p-2">
+                <p class="fs-4 fw-bold">Why GG Hospital</p>
+            </li>
+            <li class="p-2">
+                <p><i class="bi bi-check-circle checkmark"></i> Multi-super speciality hospital in South Kerala</p>
+            </li>
+            <li class="p-2">
+                <p><i class="bi bi-check-circle checkmark"></i> Achieved the unique reputation</p>
+            </li>
+            <li class="p-2">
+                <p><i class="bi bi-check-circle checkmark"></i> Multi-super speciality hospital in South Kerala</p>
+            </li>
+            <li class="p-2">
+                <p><i class="bi bi-check-circle checkmark"></i> Multi-super speciality hospital in South Kerala</p>
+            </li>
+            <li class="p-2">
+                <p><i class="bi bi-check-circle checkmark"></i> Multi-super speciality hospital in South Kerala</p>
+            </li>
         </ul>
     </div>
-    
+
     <section class="mt-5 pt-5">
-    <div id="specialisthead">
-        <p class="fs-1 fw-bolder">Meet our Specialist</p>
-        <p class="">We have the best doctors in GG</p>
-    </div>
+        <div id="specialisthead">
+            <p class="fs-1 fw-bolder">Meet our Specialist</p>
+            <p class="">We have the best doctors in GG</p>
+        </div>
         <div class="row gx-5 gy-5">
             <div class="col-lg-3 col-md-12 col-sm-12 p-5">
                 <p>
@@ -283,7 +325,7 @@
                 </p>
                 <p class="fs-5 fw-bold">Lisha Powell</p>
                 <p>ENT Specialists</p>
-                
+
             </div>
             <div class="col-lg-3 col-md-12 col-sm-12 p-5">
                 <p>
@@ -291,7 +333,7 @@
                 </p>
                 <p class="fs-5 fw-bold">Chris Nelson</p>
                 <p>Cardiologists</p>
-                
+
             </div>
             <div class="col-lg-3 col-md-12 col-sm-12 p-5">
                 <p>
@@ -299,7 +341,7 @@
                 </p>
                 <p class="fs-5 fw-bold">Linda Stapleton</p>
                 <p>Orthopaedic surgeons</p>
-                
+
             </div>
             <div class="col-lg-3 col-md-12 col-sm-12 p-5">
                 <p>
@@ -307,171 +349,173 @@
                 </p>
                 <p class="fs-5 fw-bold">Sandra John</p>
                 <p>Psychiatrists</p>
-                
+
             </div>
         </div>
         <div id="specialistbtndiv">
-        <button class="btn btn-primary btn-block rounded-sm" id="specialistbtn">View all</button>
-    </div>
+            <button class="btn btn-primary btn-block rounded-sm" id="specialistbtn">View all</button>
+        </div>
     </section>
     <section class="mt-5 pt-5">
         <div id="specialisthead">
             <p class="fs-1 fw-bolder">Facilities and Activities</p>
         </div>
-            <div class="row gx-5 gy-5">
-                <div class="col-lg-4 col-md-12 col-sm-12 p-5">
-                    <p>
-                        <img src="assets\facilities1.png" alt="" style="width: 100%;">
-                    </p>
-                    
-                    
-                </div>
-                <div class="col-lg-4 col-md-12 col-sm-12 p-5">
-                    <p>
-                        <img src="assets\facilities2.png" alt="" style="width: 100%;">
-                    </p>
-                    
-                    
-                </div>
-                <div class="col-lg-4 col-md-12 col-sm-12 p-5">
-                    <p>
-                        <img src="assets\facilities3.png" alt="" style="width: 100%;">
-                    </p>
-                   
-                    
-                </div>
-               
+        <div class="row gx-5 gy-5">
+            <div class="col-lg-4 col-md-12 col-sm-12 p-5">
+                <p>
+                    <img src="assets\facilities1.png" alt="" style="width: 100%;">
+                </p>
+
+
             </div>
-           
-        </section>
-        <section class="mt-5 pt-5">
-            <div id="specialisthead">
+            <div class="col-lg-4 col-md-12 col-sm-12 p-5">
+                <p>
+                    <img src="assets\facilities2.png" alt="" style="width: 100%;">
+                </p>
+
+
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 p-5">
+                <p>
+                    <img src="assets\facilities3.png" alt="" style="width: 100%;">
+                </p>
+
+
+            </div>
+
+        </div>
+
+    </section>
+    <section class="mt-5 pt-5">
+        <div id="specialisthead">
             <p class="fs-1 fw-bolder">You may be Interested</p>
+        </div>
+        <div class="row gx-5 gy-5">
+            <div class="col-lg-4 col-md-12 col-sm-12 p-5">
+                <p>
+                    <img src="assets\interested1.png" alt="" style="width: 20rem;">
+                </p>
+                <p class="fs-5 fw-bold">Hepatobiliary Surgery</p>
+                <p>The Hepatobiliary and Transplantology Unit of GG Hospital offers a comprehensive...</p>
+                <a href="#" class="text-success">Read More</a>
             </div>
-            <div class="row gx-5 gy-5">
-                <div class="col-lg-4 col-md-12 col-sm-12 p-5">
-                    <p>
-                        <img src="assets\interested1.png" alt="" style="width: 20rem;">
-                    </p>
-                    <p class="fs-5 fw-bold">Hepatobiliary Surgery</p>
-                    <p>The Hepatobiliary and Transplantology Unit of GG Hospital offers a comprehensive...</p>
-                    <a href="#" class="text-success">Read More</a>
-                </div>
-                <div class="col-lg-4 col-md-12 col-sm-12 p-5">
-                    <p>
-                        <img src="assets\interested2.png" alt="" style="width: 20rem;">
-                    </p>
-                    <p class="fs-5 fw-bold">Medical Oncology</p>
-                    <p>GG Hospital is the best affordable hospital in South Kerala which is NABH accredited hospital...</p>
-                    <a href="#" class="text-success">Read More</a>
-                </div>
-                <div class="col-lg-4 col-md-12 col-sm-12 p-5">
-                    <p>
-                        <img src="assets\interested3.png" alt="" style="width: 20rem;">
-                    </p>
-                    <p class="fs-5 fw-bold">ENT, Head & Neck Skull Surgery</p>
-                    <p>The ENT Department in GG Hospital provides a wide range of treatment modalities including...</p>
-                    <a href="#" class="text-success">Read More</a>
-                </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 p-5">
+                <p>
+                    <img src="assets\interested2.png" alt="" style="width: 20rem;">
+                </p>
+                <p class="fs-5 fw-bold">Medical Oncology</p>
+                <p>GG Hospital is the best affordable hospital in South Kerala which is NABH accredited hospital...</p>
+                <a href="#" class="text-success">Read More</a>
             </div>
-        </section>
+            <div class="col-lg-4 col-md-12 col-sm-12 p-5">
+                <p>
+                    <img src="assets\interested3.png" alt="" style="width: 20rem;">
+                </p>
+                <p class="fs-5 fw-bold">ENT, Head & Neck Skull Surgery</p>
+                <p>The ENT Department in GG Hospital provides a wide range of treatment modalities including...</p>
+                <a href="#" class="text-success">Read More</a>
+            </div>
+        </div>
+    </section>
 
-        <div id="end">
-           
-           
-        </div>
-        <div id="whitewave">
-            <div class="row g-5" id="wwdiv">
-                <div class="col-6">
-                    <p class="fs-5 fw-bold">Subscribe our</p>
-                    <p class="fs-5 fw-bold">Newsletter Sign up</p>
-                </div>
-                <div class="col-6" id="wwdivcol2">
-                    <input type="email" placeholder="Enter your mail id">
-                    <button type="button" class="btn btn-primary btn-block rounded-sm" id="formbtn">Subscribe</button>
-                </div>
-        </div>
-        
-        
-    <div class="d-flex flex-column px-5 bg-light fs-12 pt-5" id="footer">
-        <div class="row">
-            <div class="col-6 ps-5">
-                <div>
-                    <img src="assets\hospitallogo.png" alt="">
-                </div>
-                <div class="d-flex flex-column">
-                    <p class="w-75">GG Hospital is the flagship hospital of the sree Gokulam Group of companies. Our journey started on 27th January 2016 for the common people in Trivandrum
-                </div>
-            </div>
-            <div class="col-3 d-flex flex-column pt-3">
-                <div>
-                    <h4>About GG</h4>
-                </div>
-                <div class="d-flex">
-                    <div class="d-flex flex-column">
-                        <a href="" class="text-decoration-none text-dark m-2 ms-0">About Us</a>
-                        <a href="" class="text-decoration-none text-dark m-2 ms-0">Hospital</a>
-                    </div>
-                    <div class="d-flex flex-column">
-                        <a href="" class="text-decoration-none text-dark m-2 ms-0">Academic</a>
-                        <a href="" class="text-decoration-none text-dark m-2 ms-0">Department</a>
-                    </div>
-                </div>
-               
-            </div>
-            <div class="col-3 d-flex flex-column pt-3">
-                <div>
-                    <h4>Legal</h4>
-                </div>
-                <div class="d-flex">
-                    <div class="d-flex flex-column ">
-                        <a href="" class="text-decoration-none text-dark m-2 ms-0">Privacy Policy</a>
-                        <a href="" class="text-decoration-none text-dark m-2 ms-0">Terms of Service</a>
-                    </div>
-                    <div class="d-flex flex-column">
-                        <a href="" class="text-decoration-none text-dark m-2 ms-0">Documentation</a>
-                        <a href="" class="text-decoration-none text-dark m-2 ms-0">Site Map</a>
-                    </div>
-                </div>
-               
-            </div>
-        </div>
-        <hr>
-        <div class="d-flex justify-content-around">
-            <div class="d-flex">
-                <i class="bi bi-house-door me-1"></i>
-                <div class="d-flex flex-column">
-                    <p class="text-muted">Medical College, Pattom Kumarapuram Rd, </p>
-                    <p class="text-muted">Murinjapalam, Thiruvananthapuram, Kerala 695011</p>
-                </div>
-            </div >
-            <div class="d-flex">
-                <i class="bi bi-telephone me-1"></i>
-                <div class="d-flex flex-column">
-                    <p>0471 8764754</p>
-                    <p>0471 8764754</p>
-                </div>
-            </div>
-            <div class="d-flex">
-                <i class="bi bi-envelope me-1"></i>
-                <div class="d-flex flex-column">
-                    <p>gghospitalphkpl@gmail.com</p>
-                    <p>edoffice@gg-hospital.com</p>
-                </div>
-            </div>
-            <div>
-                <h4 class="fw-bolder">We are on Social Media</h4>
-                <div class="d-flex justify-content-around fs-24">
-                
-                    <a href="#"><img src="assets\linkdincolor.png" alt=""></a>
-                    <a href="#"><img src="assets\youtubecolor.png" alt=""></a>
-                    <a href="#"><img src="assets\fbcolor.png" alt=""></a>
-                    <a href="#"><img src="assets\instacolor.png" alt=""></a>
-                </div>
-            </div>
-        </div>
-        <p class="d-flex justify-content-center align-items-center mt-5 text-muted">&copy; 2023 GG Hospital</p>
+    <div id="end">
+
+
     </div>
+    <div id="whitewave">
+        <div class="row g-5" id="wwdiv">
+            <div class="col-6">
+                <p class="fs-5 fw-bold">Subscribe our</p>
+                <p class="fs-5 fw-bold">Newsletter Sign up</p>
+            </div>
+            <div class="col-6" id="wwdivcol2">
+                <input type="email" placeholder="Enter your mail id">
+                <button type="button" class="btn btn-primary btn-block rounded-sm" id="formbtn">Subscribe</button>
+            </div>
+        </div>
 
-    </body>
-    </html>
+
+        <div class="d-flex flex-column px-5 bg-light fs-12 pt-5" id="footer">
+            <div class="row">
+                <div class="col-6 ps-5">
+                    <div>
+                        <img src="assets\hospitallogo.png" alt="">
+                    </div>
+                    <div class="d-flex flex-column">
+                        <p class="w-75">GG Hospital is the flagship hospital of the sree Gokulam Group of companies. Our
+                            journey started on 27th January 2016 for the common people in Trivandrum
+                    </div>
+                </div>
+                <div class="col-3 d-flex flex-column pt-3">
+                    <div>
+                        <h4>About GG</h4>
+                    </div>
+                    <div class="d-flex">
+                        <div class="d-flex flex-column">
+                            <a href="" class="text-decoration-none text-dark m-2 ms-0">About Us</a>
+                            <a href="" class="text-decoration-none text-dark m-2 ms-0">Hospital</a>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <a href="" class="text-decoration-none text-dark m-2 ms-0">Academic</a>
+                            <a href="" class="text-decoration-none text-dark m-2 ms-0">Department</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-3 d-flex flex-column pt-3">
+                    <div>
+                        <h4>Legal</h4>
+                    </div>
+                    <div class="d-flex">
+                        <div class="d-flex flex-column ">
+                            <a href="" class="text-decoration-none text-dark m-2 ms-0">Privacy Policy</a>
+                            <a href="" class="text-decoration-none text-dark m-2 ms-0">Terms of Service</a>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <a href="" class="text-decoration-none text-dark m-2 ms-0">Documentation</a>
+                            <a href="" class="text-decoration-none text-dark m-2 ms-0">Site Map</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-around">
+                <div class="d-flex">
+                    <i class="bi bi-house-door me-1"></i>
+                    <div class="d-flex flex-column">
+                        <p class="text-muted">Medical College, Pattom Kumarapuram Rd, </p>
+                        <p class="text-muted">Murinjapalam, Thiruvananthapuram, Kerala 695011</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <i class="bi bi-telephone me-1"></i>
+                    <div class="d-flex flex-column">
+                        <p>0471 8764754</p>
+                        <p>0471 8764754</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <i class="bi bi-envelope me-1"></i>
+                    <div class="d-flex flex-column">
+                        <p>gghospitalphkpl@gmail.com</p>
+                        <p>edoffice@gg-hospital.com</p>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="fw-bolder">We are on Social Media</h4>
+                    <div class="d-flex justify-content-around fs-24">
+
+                        <a href="#"><img src="assets\linkdincolor.png" alt=""></a>
+                        <a href="#"><img src="assets\youtubecolor.png" alt=""></a>
+                        <a href="#"><img src="assets\fbcolor.png" alt=""></a>
+                        <a href="#"><img src="assets\instacolor.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <p class="d-flex justify-content-center align-items-center mt-5 text-muted">&copy; 2023 GG Hospital</p>
+        </div>
+
+</body>
+
+</html>
