@@ -1,1 +1,1 @@
-![GGHospital](https://github.com/Rohit6603/GG-Hospital/assets/109826503/9c58e669-3ab2-4b74-a38e-6204c216d3b2)
+![GG Hospital](https://github.com/Rohit6603/GG-Hospital/assets/109826503/607b9a92-b1f3-416f-97d1-c9a41bfef1d5)
